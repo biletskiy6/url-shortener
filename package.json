@@ -1,0 +1,36 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client \" "
+  },
+  "keywords": [],
+  "author": "Victor Biletskiy <victor.biletskiy82@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^4.5.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.3",
+    "react-hook-form": "^4.3.0",
+    "react-redux": "^7.1.3",
+    "react-toastify": "^5.5.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "shortid": "^2.2.15"
+  }
+}

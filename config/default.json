@@ -1,0 +1,6 @@
+{
+  "port": 8080,
+  "jwtSecret": "secret",
+  "baseUrl": "http://localhost:8080",
+  "dbUri": "mongodb+srv://root:root@cluster0-uejgl.azure.mongodb.net/app?retryWrites=true&w=majority"
+}
